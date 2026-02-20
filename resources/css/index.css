@@ -1,0 +1,17 @@
+* {
+	font-family: Arial;
+}
+
+h1 {
+	color: Blue;
+}
+
+#toprow {
+	text-align: center;
+	width: 100%;
+	color: Red;
+}
+
+th, td {
+	padding: 15px;
+}
