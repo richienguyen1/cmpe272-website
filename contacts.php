@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-
-
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -15,13 +13,19 @@
 		</div>
 		
 		<h1>Contacts Page</h1>
-		<h3>header 3</h3>
 		
 		<div class = "contacts_body_text">
-			<p>The following is the contact information of our employees at our company.</p>
-			<p>Feel free to contact them if you have any questions or feedback for us.</p>
+			<p>
+				The following is the contact information of our employees at our company.
+				<br>
+				Feel free to contact them if you have any questions or feedback for us.
+			</p>
 		
 			<?php require 'resources/php/contacts_readFile.php'; ?>
+		</div>
+		
+		<div class = "footer">
+			<?php include 'resources/php/footer.php'; ?>
 		</div>
 		
 	</body>

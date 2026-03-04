@@ -1,10 +1,12 @@
 <?php
 	$CONTACTS_FILE_PATH = 'resources/php/contacts.txt';//file to read
 	
-	$contactLines = file($CONTACTS_FILE_PATH);
+	$contactsFile = fopen($CONTACTS_FILE_PATH, "r") or die("Error: unable to open file");//open with possible error detection
 	
-	foreach($contactLines as $line) {
-		echo str_pad($line, 2, 0, STR_PAD_LEFT);
+	while (!feof($contactsFile)) {//continue until end of file
+		$line = fgets($contactsFile);
+		echo $line . "<br>";//print line + line break
 	}
-			
+	
+	fclose($contactsFile);
 ?>

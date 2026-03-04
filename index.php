@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <?php
-	$CompanyName = "[Company Name]";
+	$CompanyName = "Plumbing Electronics Catalogue";
 ?>
 
 <html>
@@ -18,9 +18,12 @@
 		</div>
 		
 		<h1>Welcome to <?php print("$CompanyName"); ?>!</h1>
-		<h3>header 3</h3>
-		<?php 
-			echo '<p>Hello World</p>';
-		?>
+		<p>We provide high quality plumbing equipment and cheap electronics for our customers to enjoy.</p>
+		<p>Our website is currently under construction, so check back later for new offers and better experiences.</p>
+		
+		<div class = "footer">
+			<?php include 'resources/php/footer.php'; ?>
+		</div>
+		
 	</body>
 </html>

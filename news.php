@@ -13,6 +13,15 @@
 		</div>
 		
 		<h1>News Page</h1>
-		<h3>header 3</h3>
+		
+		<p>
+			This news page is currently under construction.
+			Check back later for more news updates.
+		</p>
+		
+		<div class = "footer">
+			<?php include 'resources/php/footer.php'; ?>
+		</div>
+		
 	</body>
 </html>
