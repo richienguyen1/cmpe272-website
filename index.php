@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-
-<?php
-	$CompanyName = "Plumbing Electronics Catalogue";
-?>
+<!-- Landing/home page for website -->
+<?php $CompanyName = "Plumbing Electronics Catalogue"; ?>
 
 <html>
 	<head>

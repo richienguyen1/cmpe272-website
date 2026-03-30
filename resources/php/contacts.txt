@@ -3,3 +3,6 @@ Bob CEO, (000) 098-7654, BobIsTheCEO@email.server
 Bill Secretary, (000) 000-0000, SecretaryBill@email.server
 Jane HR, (000) 000-0000, PlumbElecCataHR@email.server
 Janus Custodian, (000) 000-0000, JanusCustodianServices@email.server
+Claude Mechanicus, (000) 000-0000, ClaudeMech@email.server
+Gemini Machina, (000) 000-0000, GeminiMachinaPersonal@email.server
+Gerald-Peter Thronesby Machinatio, (000) 000-0000, GeraldPeterTMachinatio@email.server

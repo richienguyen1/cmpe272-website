@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Company about page -->
 <html>
 	<head>
 		<meta charset="UTF-8">

@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!-- Contacts page using readFile php code to read in contacts.txt file -->
+<?php $CONTACTS_LIST = "resources/php/contacts.txt"; ?>
+
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -21,7 +24,9 @@
 				Feel free to contact them if you have any questions or feedback for us.
 			</p>
 		
-			<?php require 'resources/php/contacts_readFile.php'; ?>
+			<?php require 'resources/php/readFile.php';
+				readFileByLine($CONTACTS_LIST);
+			?>
 		</div>
 		
 		<div class = "footer">
