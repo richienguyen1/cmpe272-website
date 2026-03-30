@@ -1,1 +1,1 @@
-DROP TABLE list_of_users;
+DROP TABLE cmpe272website.list_of_users;

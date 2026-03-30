@@ -1,4 +1,4 @@
-CREATE TABLE list_of_users (
+CREATE TABLE cmpe272website.list_of_users (
 	Fname VARCHAR(255) NOT NULL,
 	Mname VARCHAR(255),
 	Lname VARCHAR(255) NOT NULL,
