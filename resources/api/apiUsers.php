@@ -1,10 +1,11 @@
-<?php require '../php/retrieveDatabase.php';
+<?php require '../php/databaseModule.php';
 	
-	$queryResult = retrieveFromDatabase("SELECT Fname, Lname FROM list_of_users");//retrieve from database
+	$userArray = array();
+	$queryResult = queryDatabase("SELECT Fname, Lname FROM list_of_users");//retrieve from database
 	foreach ($queryResult as $row) {
-			
-			echo json_encode($row);//print each row result as json
-			print(", ");
+			array_push($userArray, $row);
 		}
-	
+
+	$outputData = ["company" => "Plumbing Electronics Catalogue", "users" => $userArray];//formatted as company name, user array
+	echo json_encode($outputData);
 ?>
